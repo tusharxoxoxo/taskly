@@ -1,4 +1,4 @@
 export const theme = {
-    colorCerulean: "#1a759f", 
-    colorWhite: "#fff",
-}
+  colorCerulean: "#1a759f",
+  colorWhite: "#fff",
+};

@@ -8,13 +8,14 @@
 
 -> npx expo install -- --save-dev prettier eslint-config-prettier eslint-plugin-prettier
 
--> 
+->
+
 ```javascript
 module.exports = {
-  extends: ['expo', 'prettier'],
-  plugins: ['prettier'],
+  extends: ["expo", "prettier"],
+  plugins: ["prettier"],
   rules: {
-    'prettier/prettier': 'error',
+    "prettier/prettier": "error",
   },
 };
 ```
