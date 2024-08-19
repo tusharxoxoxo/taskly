@@ -1,8 +1,13 @@
 -> bunx --bun create-expo-app --help
+
 -> bun create expo-app plantly --template
+
 -> bun run start or bun run start --tunnel
+
 -> npx expo lint
+
 -> npx expo install -- --save-dev prettier eslint-config-prettier eslint-plugin-prettier
+
 -> 
 ```javascript
 module.exports = {
@@ -13,4 +18,5 @@ module.exports = {
   },
 };
 ```
+
 -> yarn lint --fix
